@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backorange"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:paddingTop="190dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/orange"
+            android:text="Resep Minuman"
+            android:fontFamily="@font/anudrag_"/>
+        <TextView
+            android:paddingTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:text="Minuman Tradisional"
+            android:onClick="btn_minum2"
+
+            android:textSize="35sp"
+            android:textColor="@color/orange2"
+            android:fontFamily="@font/lobster_regular"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Minuman Internasional"
+            android:onClick="btn_minum"
+            android:textSize="35sp"
+            android:textColor="@color/orange2"
+            android:fontFamily="@font/lobster_regular"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Makanan"
+            android:onClick="btn_makan"
+            android:textSize="35sp"
+            android:textColor="@color/orange2"
+            android:fontFamily="@font/lobster_regular"/>
+
+    </LinearLayout>
+</LinearLayout>

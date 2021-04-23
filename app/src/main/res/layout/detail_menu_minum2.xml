@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange">
+
+    <ImageView
+        android:id="@+id/img_detailMinum2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_image">
+    </ImageView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_DetailnamaMinum2"
+                android:text="NAMA MINUMAN"
+                android:textSize="12sp"
+                android:fontFamily="@font/anton_regular"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ALAT"
+                android:textSize="12sp"
+                android:fontFamily="@font/abel_regular"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:id="@+id/txt_DetailhargaMinum2"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/orange2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txt_DetailcontenMinum2"
+            android:textAlignment="center"
+            android:text="DETAIL"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            >
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>
+
